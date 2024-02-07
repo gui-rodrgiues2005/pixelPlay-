@@ -1,0 +1,28 @@
+.navegação{
+    width: 100%;
+    height: 30px;
+    background-color: var(--color-first);
+    padding: 8px; 
+    
+}
+.navegação ul{
+    list-style: none;  
+    text-decoration: none;
+    align-items: center; 
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.navegação a {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    color:var(--color-third);
+}
+.navegação li:hover{
+ transform: scale(1.05);
+}
+.navegação a:hover{
+    transform: scale(1.05);
+}
+

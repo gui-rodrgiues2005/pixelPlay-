@@ -1,0 +1,38 @@
+#container-paragrafo-inicial {
+    position: relative; 
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(54, 72, 86, 0.416);
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    text-align: justify;
+    margin-top: 15%;
+    display: flex;
+    line-height: 1.3;
+}
+#container-paragrafo-inicial:hover{
+    transform: scale(1.02);
+}
+#image-display {
+    width: 58%;
+    height: 58%;
+    border: 3px solid #070e58;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #291f1f63; 
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    cursor: pointer;
+    margin-right: 20px;
+}
+#container p {
+    margin-top: 20px;
+    align-items: center;
+}
+#texto{
+    font-size: 20px;
+    line-height: 1.8; 
+    color:rgb(31, 21, 83);
+}
+
+

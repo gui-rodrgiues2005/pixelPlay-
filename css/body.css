@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family:'Press Start 2P', system-ui;
+}
+:root{
+    --color-first:#2c3e50d6;
+    --color-second:#7f8c8d;
+    --color-third:#c8d6e5;
+}

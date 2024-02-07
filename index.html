@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/texto principal.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/links.css">
+    <title>PixelPlay</title>
+
+</head>
+<body onload="showContent();mostrarImagem()">
+
+    <header>
+        <nav class="navegação">
+            <ul>
+                <li><a href="#" onclick="ocultarTexto();showContent('img/img2,valorant.jpeg', 'Valorant é um jogo eletrônico de tiro em primeira pessoa, desenvolvido e publicado pela Riot Games. Lançado como um FPS tático 5x5, o jogo combina mecânicas de tiro precisas com habilidades únicas de personagens.')">VALORANT</a></li>
+                <li><a href="#" onclick="ocultarTexto();showContent('img/imagem2,fortinite.webp', 'Fortnite é um popular jogo eletrônico desenvolvido e publicado pela Epic Games. Com diferentes modos de jogo, incluindo o Battle Royale e o Modo Criativo, atraindo milhões de jogadores em todo o mundo.')">FORTNITE</a></li>
+                <li><a href="#" onclick="ocultarTexto();showContent('img/img2,minecraft.jpg', 'Minecraft é um jogo sandbox que permite aos jogadores explorar um mundo tridimensional gerado processualmente composto por blocos. Os jogadores podem reunir recursos, criar ferramentas e itens, construir estruturas e interagir com várias criaturas e entidades dentro do mundo do jogo.')">MINECRAFT</a></li>
+                <li><a href="#" onclick="ocultarTexto();showContent('img/img2,pubg.webp', 'PlayerUnknowns Battlegrounds (PUBG) é um jogo multiplayer online battle royale desenvolvido e publicado pela PUBG Corporation, uma subsidiária da empresa sul-coreana de videogames Bluehole. Em PUBG, até 100 jogadores caem de paraquedas em uma ilha onde buscam armas e equipamentos para eliminar outros jogadores, evitando serem eliminados.')">PUBG</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main>
+        <div class="carrossel">
+            <div class="container-carrossel" id="img">
+                <img id="image-display-valorant" src="img/Valorant.jpg" alt="Valorant">
+                <img id="image-display-fortnite" src="img/fortinite.jpg" alt="Fortnite">
+                <img id="image-display-minecraft" src="img/Minecraft.jpg" alt="Minecraft">
+                <img id="image-display-pubg" src="img/PUBG.jpg" alt="PUBG">
+            </div>
+        </div>
+
+        <section id="container-paragrafo-inicial">
+            <img id="image-display" onerror="this.style.display='none'" >
+            <p id="text-display"></p>
+            
+            <div id="texto">
+                <p>Essa é a minha página sobre jogos.</p>
+                <p>Cada pixel nesta página é cuidadosamente escolhido para transmitir a essência única dos jogos.</p>
+                <p>Apresentando algumas imagens e curiosidades sobre os jogos que certamente já jogamos em algum dia de nossas vidas.</p>
+                <p>Este é um dos meus mais novos projetos que estará sempre em atualizações.</p>
+                <p>Sinta-se em casa.</p>
+            </div>
+        </section>
+        
+        <div class="links">
+            <p>Aqui estão os links relacionados a cada jogo, caso tenha o interesse em explorar um pouco mais:</p>
+            <a href="https://playvalorant.com/pt-br/">Valorant</a>
+            <a href="https://www.fortnite.com/?lang=pt-BR">Fortnite</a>
+            <a href="https://www.minecraft.net/pt-br">Minecraft</a>
+            <a href="https://pubg.com/pt-br/main">PUBG</a>
+        </div>
+    </main>
+
+    <footer class="rodape"> 
+            <p class="sobre">Sobre mim:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/guilherme_rodriguess01/?hl=pt_BR" target="_blank"><i class="bi bi-instagram" style="font-size:30px"></i></a></li>
+                <li><a href="https://wa.me//35998726862" target="_blank"><i class="bi bi-whatsapp" style="font-size:30px"></i></a></li>
+                <li><a href="https://github.com/dashboard" target="_blank"><i class="bi bi-github" style="font-size:30px"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/guilherme-rodrigues-costa-a39a15268/details/skills//"><i class="bi bi-linkedin" style="font-size:30px"></i></a></li>
+            </ul>
+    </footer>
+<script src="index.js"></script>       
+</body>
+</html>

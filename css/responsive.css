@@ -1,0 +1,95 @@
+@media screen and (max-width: 605px) {
+.navegação{
+    max-width: 100%;
+    width: 100%;
+    background-color: rgba(26, 24, 22, 0.329);
+    padding: 20px;
+}
+.navegação ul {
+    padding: 0;
+    list-style: none;
+    width: 605px;
+    text-align: center;
+}
+
+.navegação a {
+    font-size: 15px;
+    color: #333;
+
+}
+.carrossel {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.container-carrossel {
+    display: flex;
+    width: 400%; 
+    transition: transform 0.5s ease;
+}
+
+.container-carrossel img {
+    width: 100%;
+    height: auto;
+}
+
+#container-paragrafo-inicial {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 100%;
+    width: 100%;
+
+}
+#texto{
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.links a {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links ul {
+    padding: 0px;
+    list-style: none;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+ 
+}
+.rodape ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 30px;
+}
+.rodape li {
+    margin: 0;
+}
+.rodape a {
+    text-decoration: none;
+    color: #000;
+}
+@media only screen and (max-width: 768px) {
+    .rodape ul {
+        gap:25px;
+        align-items: center;
+    }
+    .sobre{
+       margin: 1%;
+    }
+}}
+

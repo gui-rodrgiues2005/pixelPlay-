@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family:'Press Start 2P', system-ui;
+    height:auto;
+}
+/*menu de navegação*/
+.navegação{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(44, 36, 36, 0.781);
+    padding: 8px; 
+    
+}
+.navegação ul{
+    list-style: none;  
+    text-decoration: none;
+    align-items: center; 
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.navegação a {
+    color:#8fbae0;
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+}
+.navegação a:hover{
+    color: blue;
+    transition: 0.3s;
+}
+
+/*fim menu*/
+
+/*exibição textos*/
+.carrossel{
+   box-shadow: 2px 2px 4px black;
+   overflow: hidden; 
+   width: 100%;
+   margin:0;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.7;
+}
+.container-carrossel{ 
+    display:flex;
+    transition-duration: 3s;
+    transform:translateX(0);
+    width: 100vh;
+}
+img{
+    width: 700px; 
+    height: 700px;
+    object-fit: cover;
+    z-index: -1;
+}
+/*Texto inicial*/
+#container-paragrafo-inicial {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);   
+}
+/* Estilos para a imagem e o texto */
+#image-display {
+    max-width: 100%;
+    height: auto;
+    border: solid 3px black;
+    border-radius: 15px;
+    border: 3px solid #070e58; 
+    border-radius: 10px; 
+    padding: 5px;
+    background-color: #291f1f63; 
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+#container p{
+    width: 500px;
+    color:rgb(21, 23, 25);
+    font-size: 20px;
+    margin-left:25px;
+    text-align: left; 
+    text-align: right;
+    text-align: justify;
+   
+}
+#texto{
+    margin-bottom: 60px;
+    margin-left: 25px;
+    color: #1a0335e4;
+    
+}
+/*rodapé*/
+footer{
+    width: 100%;
+    height:120px;
+    position: absolute;
+    bottom:0;
+    margin:0;
+    padding: 0;
+    background: #0b15866f;
+ 
+}
+i{
+    color:black;
+}
+h4{
+  position: absolute;
+  top:20px;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.rodape ul{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.rodape li{
+   list-style: none;
+   text-decoration: none;
+   width: 30px;
+   padding: 0px;
+   margin: 45px;
+}

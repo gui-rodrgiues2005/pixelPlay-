@@ -1,0 +1,29 @@
+footer{
+    margin-top: 25%;
+    background: var(--color-first);
+}
+i{
+    color:var(--color-third);
+}
+.sobre{
+  margin-left: 45%;
+  top: 35px;
+  position: relative;
+}
+
+.rodape ul{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ margin-top:50px ;
+}
+.rodape li{
+   list-style: none;
+   text-decoration: none;
+   width: 10px;
+   padding: 0px;
+   margin: 45px;
+}
+.rodape li:hover{
+  transform: scale(1.09);
+}
